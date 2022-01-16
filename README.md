@@ -30,20 +30,21 @@ and run interactively with
 docker run --rm -it  -p 80:80 dataappperformance:latest
 ```
 
-docker run --rm -it -p 80:80 dataappperformance:latest -c 'invoke slider-plot.panel'
-
 You can list all tests with
 
 ```bash
 $ docker run --rm -it -p 80:80 dataappperformance:latest -c 'invoke --list'
 Available tasks:
 
+  page-load.dash
+  page-load.panel
+  page-load.streamlit
   slider-plot.dash
   slider-plot.panel
   slider-plot.streamlit
 ```
 
-So to run for example the Panel slider-plot app you would run 
+So to run for example the Panel slider-plot app you would run
 
 ```bash
 $ docker run --rm -it -p 80:80 dataappperformance:latest -c 'invoke slider-plot.panel'
@@ -54,10 +55,20 @@ cd src/slider_plot && panel serve slider_plot_panel.py --port 80
 2022-01-16 05:29:11,986 Starting Bokeh server with process id: 7
 ```
 
+To run the page load test you would have to add port 8089 to the mix like
+
+```bash
+docker run --rm -it -p 80:80 -p 8089:8089 dataappperformance:latest -c 'invoke page-load.panel'
+```
+
 ## Test Results
 
 Click the images to dive into the test and its results
 
-### Slider with Plot Test
+### Drag Slider with Plot Updating Performance Test
+
+Only works for Panel
 
 [![Slider with Plot Test](https://user-images.githubusercontent.com/42288570/149649081-f4bc0c64-1a9f-466c-95f5-3cbbafe273cb.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/1).
+
+[![Page Load and Refresh Test](https://user-images.githubusercontent.com/42288570/149675838-62a2075d-36c8-44c6-b5ea-61f75446ea49.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/2).
