@@ -71,4 +71,8 @@ Only works for Panel
 
 [![Slider with Plot Test](https://user-images.githubusercontent.com/42288570/149649081-f4bc0c64-1a9f-466c-95f5-3cbbafe273cb.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/1).
 
+### Page Load and Refresh
+
+Dash clear winner. Panel server shows blocking behaviour. Streamlit is consistently slow.
+
 [![Page Load and Refresh Test](https://user-images.githubusercontent.com/42288570/149675838-62a2075d-36c8-44c6-b5ea-61f75446ea49.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/2).
