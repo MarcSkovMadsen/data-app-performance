@@ -54,4 +54,8 @@ cd src/slider_plot && panel serve slider_plot_panel.py --port 80
 
 ## Test Results
 
-[Slider and Plot Test](https://github.com/MarcSkovMadsen/data-app-performance/issues/1).
+Click the images to dive into the test and its results
+
+### Slider with Plot Test
+
+[![Slider with Plot Test](https://user-images.githubusercontent.com/42288570/149648109-811d2aac-27c6-4492-b58c-72bd4583efa5.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/1).
