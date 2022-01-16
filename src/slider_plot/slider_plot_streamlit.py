@@ -10,4 +10,5 @@ def plot(count):
 import streamlit as st
 
 count = st.sidebar.slider(label="Count", min_value=1, max_value=50, value=10)
+st.write("Streamlit - Slider with Plot Performance Test")
 st.write(plot(count))

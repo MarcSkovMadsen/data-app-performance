@@ -18,7 +18,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], server=se
 
 app.layout = html.Div(
     [
-        dbc.NavbarSimple(brand="Dash Application", color="primary", dark=True),
+        dbc.NavbarSimple(brand="Dash - Slider with Plot Performance Test", color="primary", dark=True),
         dbc.Row(
             [
                 dbc.Col(

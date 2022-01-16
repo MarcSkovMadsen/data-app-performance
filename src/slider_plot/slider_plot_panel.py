@@ -12,4 +12,4 @@ import panel as pn
 pn.extension("plotly", sizing_mode="stretch_width", template="fast")
 
 count = pn.widgets.IntSlider(name="Count", start=1, end=50, value=10).servable(area="sidebar")
-pn.panel(pn.bind(plot, count)).servable(title="Slider Example")
+pn.panel(pn.bind(plot, count)).servable(title="Panel - Slider with Plot Performance Test")
