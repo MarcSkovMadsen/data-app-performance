@@ -47,12 +47,7 @@ Available tasks:
 So to run for example the Panel slider-plot app you would run
 
 ```bash
-$ docker run --rm -it -p 80:80 dataappperformance:latest -c 'invoke slider-plot.panel'
-cd src/slider_plot && panel serve slider_plot_panel.py --port 80
-2022-01-16 05:29:11,980 Starting Bokeh server version 2.4.2 (running on Tornado 6.1)
-2022-01-16 05:29:11,982 User authentication hooks NOT provided (default user enabled)
-2022-01-16 05:29:11,985 Bokeh app running at: http://localhost:80/slider_plot_panel
-2022-01-16 05:29:11,986 Starting Bokeh server with process id: 7
+docker run --rm -it -p 80:80 dataappperformance:latest -c 'invoke slider-plot.panel'
 ```
 
 To run the page load test you would have to add port 8089 to the mix like
