@@ -6,7 +6,7 @@ My hypothesis is that
 
 |Framework | Server | Communication Protocol | Built in state | Update cycle|
 |-|-|-|-|-|
-|Dash|Flask|https|No|Specific code reruns and UI updates|
+|Dash|Flask|http|No|Specific code reruns and UI updates|
 |Panel|Tornado|web sockets|Yes, Automatic|Specific code reruns and UI updates|
 |Streamlit|Tornado|web sockets|Yes, Manual|Rerun script top to bottom with caching|
 
