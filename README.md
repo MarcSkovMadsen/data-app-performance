@@ -68,6 +68,6 @@ Only works for Panel
 
 ### Page Load and Refresh
 
-Dash clear winner. Panel server shows blocking behaviour. Streamlit is consistently slow.
+Dash clear winner. Panel server shows blocking behaviour. Streamlit is very fast in theory but probably slowest in practice.
 
 [![Page Load and Refresh Test](https://user-images.githubusercontent.com/42288570/149675838-62a2075d-36c8-44c6-b5ea-61f75446ea49.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/2).
