@@ -52,18 +52,6 @@ cd src/slider_plot && panel serve slider_plot_panel.py --port 80
 2022-01-16 04:50:24,962 Starting Bokeh server with process id: 9
 ```
 
-## Source Videos
+## Test Results
 
-https://user-images.githubusercontent.com/42288570/149068309-1b5cc81d-5953-478c-be6b-5c1482d9bb4b.mp4
-
-https://user-images.githubusercontent.com/42288570/149068316-65456b3b-f8fe-46c9-ad37-c7f982cf406c.mp4
-
-https://user-images.githubusercontent.com/42288570/149068321-91de4d48-4870-43cf-90b9-8f4f6ab7cadc.mp4
-
-## Promo Video
-
-https://user-images.githubusercontent.com/42288570/149069181-a28a9d5d-f273-4152-91ae-227a92687c30.mp4
-
-## Promo Gif
-
-![performance-comparison-1920](https://user-images.githubusercontent.com/42288570/149069199-98c23248-2b0e-4418-9a2c-fff834613cb6.gif)
+[Slider and Plot Test](https://github.com/MarcSkovMadsen/data-app-performance/issues/1).
