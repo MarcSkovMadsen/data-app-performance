@@ -60,4 +60,4 @@ Click the images to dive into the test and its results
 
 ### Slider with Plot Test
 
-[![Slider with Plot Test](https://user-images.githubusercontent.com/42288570/149648109-811d2aac-27c6-4492-b58c-72bd4583efa5.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/1).
+[![Slider with Plot Test](https://user-images.githubusercontent.com/42288570/149649081-f4bc0c64-1a9f-466c-95f5-3cbbafe273cb.gif)](https://github.com/MarcSkovMadsen/data-app-performance/issues/1).
